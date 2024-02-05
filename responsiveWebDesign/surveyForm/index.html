@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name: 
+            <input type="text" id="name" required placeholder="Enter your name">
+        </label>
+        <label for="email" id="email-label">Email:
+            <input type="email" id="email" required placeholder="Enter your name">
+        </label>
+        <label for="number" id="number-label">Age (optional):
+            <input type="number" id="number" min="0" max="150" placeholder="Your age">
+        </label>
+        <label for="dropdown">This is a dropdown menu: 
+            <select name="dropdown" id="dropdown" placeholder="select an option">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+        </label>
+        <label for="">Radio1: 
+            <input type="radio" id="radio1" name="radioButtons" value="one">
+        </label>
+        <label>Radio2: 
+            <input type="radio" id="radio2" name="radioButtons" value="two">
+        </label>
+        <label>Radio3: 
+            <input type="radio" id="radio-3" name="radioButtons" value="three">
+        </label>
+        <fieldset>
+            <legend>These are checkboxes:</legend>
+            <input id="checkbox1" type="checkbox" name="checkbox1" value="checkbox1"> 
+            <label for="checkbox1">Checkbox 1</label>
+
+            <input id="checkbox2" type="checkbox" name="checkbox2" value="checkbox2"> 
+            <label for="checkbox2">Checkbox 2</label>
+
+            <input id="checkbox3" type="checkbox" name="checkbox3" value="checkbox3"> 
+            <label for="checkbox3">Checkbox 3</label>
+
+            <input id="checkbox4" type="checkbox" name="checkbox4" value="checkbox4"> 
+            <label for="checkbox4">Checkbox 4</label>
+
+            <input id="checkbox5" type="checkbox" name="checkbox5" value="checkbox5"> 
+            <label for="checkbox5">Checkbox 5</label>
+
+            <input id="checkbox6" type="checkbox" name="checkbox6" value="checkbox6"> 
+            <label for="checkbox6">Checkbox 6</label>
+          </fieldset>
+          <label for="textBox">Here's the text area 
+            <textarea name="textBox" id="textBox" cols="30" rows="10"></textarea>
+          </label>
+          <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
